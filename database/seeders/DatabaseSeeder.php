@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
         Office::create([
             'name' => 'Polres Garut',
             'address' => 'Jl. Jendral Sudirman No.204, Sucikaler, Kec. Karangpawitan, Kabupaten Garut, Jawa Barat 44182',
-            'latitude' => 7.211628793381207,, // Contoh koordinat Jakarta
+            'latitude' => 7.211628793381207, // Contoh koordinat Jakarta
             'longitude' => 107.91935391333283,
             'radius' => 200, // Radius 200 meter
         ]);
